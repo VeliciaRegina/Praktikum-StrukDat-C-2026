@@ -16,16 +16,4 @@ mhs3 = Mahasiswa("Putra",'25071100002', "TI A")
 
 mhs1.update_nim("2502333333")
 
-class Person:
-  def __init__(self, name, age):
-    self.name = name
-    self.age = age
-
-  def greet(self, name):
-    print('haloo, nama saya', name)
-
-orang1 = Person("cia", "18")
-
-orang1.greet()
-
 
