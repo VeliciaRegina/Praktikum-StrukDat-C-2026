@@ -1,6 +1,28 @@
 # Set digunakan untuk menyimpan banyak item dalam satu variabel.
 # Item di set tidak terurut, tidak dapat diubah, dan tidak mengizinkan duplikat
 
+"""                        
+add()		                                    Menambahkan elemen ke set
+clear()		                                 Menghapus semua elemen dari set
+copy()		                                 Mengembalikan salinan set
+difference()              	         -	      Mengembalikan set yang berisi selisih antara dua set
+difference_update()	               -=	      Menghapus item dalam set ini yang juga termasuk dalam set lain yang ditentukan
+discard()		                              Menghapus item yang ditentukan
+intersection()	                     &	      Mengembalikan set yang merupakan irisan dari dua set lain
+intersection_update()	            &=	      Menghapus item dalam set ini yang tidak ada dalam set lain yang ditentukan
+isdisjoint()		                           Mengembalikan apakah dua set memiliki irisan atau tidak
+issubset()	                        <=       Mengembalikan True jika semua item dari set ini ada dalam set lain
+	                                 <	      Mengembalikan True jika semua item dari set ini ada dalam set lain yang lebih besar
+issuperset()	                     >=	      Mengembalikan True jika semua item dari set lain ada dalam set ini
+	                                 >	      Mengembalikan True jika semua item dari set lain yang lebih kecil ada dalam set ini
+pop()		                                    Menghapus elemen dari set
+remove()		                                 Menghapus elemen yang ditentukan
+symmetric_difference()	            ^	      Mengembalikan set dengan selisih simetris dari dua set
+symmetric_difference_update()	      ^=	      Memasukkan selisih simetris dari set ini dan set lain
+union()	                           |	      Mengembalikan set yang berisi gabungan dari set
+update()	                           |=	      Perbarui set dengan gabungan set ini dan set lainnya
+"""
+
 set1 = {"abc", 34, True, 40, "male"}
 print(set1)
 
