@@ -19,7 +19,7 @@ sort()      Mengurutkan list
 list1 = ["abc", 34, True, 40, "male"]
 print(list)
 
-# Menentukan panjang list
+# Mengetahui panjang list
 thislist = ["apple", "banana", "cherry"]
 print(len(thislist))
 

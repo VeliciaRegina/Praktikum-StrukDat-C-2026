@@ -4,6 +4,8 @@
 """                        
 add()		                                    Menambahkan elemen ke set
 clear()		                                 Menghapus semua elemen dari set
+remove()                                  Menghapus item (error jika tidak ada)
+discrad()                                 Menghapus item (tidak error jika tidak ada)
 copy()		                                 Mengembalikan salinan set
 difference()              	         -	      Mengembalikan set yang berisi selisih antara dua set
 difference_update()	               -=	      Menghapus item dalam set ini yang juga termasuk dalam set lain yang ditentukan

@@ -17,6 +17,8 @@ values()	      Mengembalikan daftar semua nilai dalam dictionaries
 """
 
 
+
+
 thisdict = {
   "brand": "Ford",
   "electric": False,
